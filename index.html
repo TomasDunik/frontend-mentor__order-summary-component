@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- ==================== Title ==================== -->
+    <title>Frontend Mentor | Order summary card</title>
+
+    <!-- ==================== CSS ==================== -->
+    <link rel="stylesheet" href="css-reset.css" />
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- ==================== Icon ==================== -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <!-- ==================== Google fonts ==================== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- ==================== Header ==================== -->
+    <header class="website-background">
+      <picture>
+        <source
+          srcset="/images/pattern-background-desktop.svg"
+          media="(min-width:
+        370px)"
+        />
+        <img src="/images/pattern-background-mobile.svg" alt="" />
+      </picture>
+    </header>
+
+    <!-- ==================== Main ==================== -->
+    <main class="card">
+      <div class="card-img">
+        <img src="/images/illustration-hero.svg" alt="" />
+      </div>
+      <div class="card-main">
+        <h1 class="card-header">Order Summary</h1>
+        <h2 class="card-text">
+          You can now listen to millions of songs, audiobooks, and podcasts on
+          any device anywhere you like!
+        </h2>
+        <div class="card-plan">
+          <div class="plan-img">
+            <img src="/images/icon-music.svg" alt="Icon music" />
+          </div>
+          <div class="plan-name-price">
+            <div class="plan-name">Annual Plan</div>
+            <div class="plan-price">$59.99/year</div>
+          </div>
+          <a class="plan-change" href="#">Change</a>
+        </div>
+        <button>Proceed to Payment</button>
+        <a class="cancel" href="#">Cancel Order</a>
+      </div>
+    </main>
+  </body>
+</html>
