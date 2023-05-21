@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: https://www.frontendmentor.io/solutions/order-summary-component-4SkJ76oVDw
-- Live Site URL: https://tomasdunik.github.io/order-summary-component/
+- Live Site URL: https://tomasdunik.github.io/frontend-mentor-newbie-order-summary-component/
 
 ## My process
 
